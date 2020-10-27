@@ -9,7 +9,9 @@
   margin-bottom: 30px;
 }
 
-
+.padding_y30{
+  padding: 30px 0;
+}
 
 /* Fine utility classes */
 .navbar{
@@ -23,6 +25,14 @@
 
 .bg_blue{
   background-color: #2c3e50;
+}
+
+.bg_clearblue{
+  background-color: #3a546d;
+}
+
+.white{
+  color: white;
 }
 
 .navbar-default .navbar-brand , .navbar-default .navbar-nav>li>a {
