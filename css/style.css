@@ -1,8 +1,15 @@
 /* Utility classes */
+.margin_y20{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .margin_y30{
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+
 
 /* Fine utility classes */
 .navbar{
@@ -28,8 +35,11 @@
 
 /* Mediaquery */
 
-@media  screen and (min-width: 768px) {
+@media  screen and (min-width: 769px) {
   #cards .col-md-6{
     margin: 10px 0;
+  }
+  #about .col-sm-12{
+    margin-top: 15px;
   }
 }
