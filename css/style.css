@@ -25,3 +25,10 @@
 .col-lg-4{
   margin: 20px 0;
 }
+
+@media  screen and (min-width: 768px) {
+  #cards .col-md-6{
+    margin: 10px 0;
+  }
+
+}
