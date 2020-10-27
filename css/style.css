@@ -26,9 +26,10 @@
   margin: 20px 0;
 }
 
+/* Mediaquery */
+
 @media  screen and (min-width: 768px) {
   #cards .col-md-6{
     margin: 10px 0;
   }
-
 }
