@@ -129,6 +129,7 @@ nav a{
 }
 
 /* Contact */
+
 .form-control {
     border: 0px;
     box-shadow: 0 0px 0px ;
@@ -141,6 +142,42 @@ textarea{
 .form-control:focus {
     box-shadow: 0 0px 0px;
 }
+
+#contact .btn{
+  padding: 10px 15px;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+#contact .btn:hover {
+    color: #fff;
+    background-color: #159a80;
+    border-color: #148f77;
+}
+
+/*Fine del Main  */
+/* Inizio Footer */
+
+footer p{
+  font-size: 19px;
+}
+
+footer i{
+  color: white;
+  padding: 15px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+footer p a{
+  color: #1abc9c;
+}
+
+footer p a:hover{
+  color: #1abc9c;
+}
+
+
 
 /* Mediaquery */
 
