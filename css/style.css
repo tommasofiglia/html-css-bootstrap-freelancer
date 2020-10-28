@@ -124,6 +124,24 @@ nav a{
   background-color: white;
 }
 
+#about , #about .btn{
+  font-size: 20px;
+}
+
+/* Contact */
+.form-control {
+    border: 0px;
+    box-shadow: 0 0px 0px ;
+}
+
+textarea{
+  resize: none;
+}
+
+.form-control:focus {
+    box-shadow: 0 0px 0px;
+}
+
 /* Mediaquery */
 
 @media  screen and (min-width: 769px) {
