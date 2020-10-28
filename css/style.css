@@ -1,3 +1,7 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
 /* Utility classes */
 .margin_y20{
   margin-top: 30px;
@@ -33,31 +37,70 @@
   color: #2c3e50;
 }
 
+.container-sm{
+  max-width: 750px;
+  margin: auto;
+}
+
 /* Fine utility classes */
+
+/* Commons */
+h2{
+  font-size: 50px;
+  font-weight: 700;
+}
+
+h1{
+  font-weight: 700;
+}
 
 /* Navbar */
 nav{
   margin: 0;
   border: 0;
-  padding: 25px 0;
+  padding: 15px 0;
 }
 
-.navbar-default {
-    border: 0;
+nav a{
+  font-weight: 700;
+  font-size: 17px;
 }
 
-.navbar-default .navbar-brand , .navbar-default .navbar-nav>li>a {
+.navbar-brand{
+  font-size: 25px;
+}
+
+.navbar-default{
+  border: 0;
+}
+
+.navbar-default .navbar-brand , .navbar-default .navbar-nav>li>a{
   color: white;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #1abc9c;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: white;
+  background-color: transparent;
 }
 
 /* Jumbotron */
 .jumbotron .row{
-  margin-top: 100px;
+  margin-top: 80px;
   border: 0;
 }
 
 .jumbotron img{
   width: 240px;
+}
+
+.jumbotron span{
+  display: block;
+  font-size: 22px;
 }
 
 /* Inizio Main */
@@ -71,11 +114,15 @@ nav{
 }
 
 /* about */
-.container-sm{
-  max-width: 750px;
-  margin: auto;
+#about .btn{
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 5px;
 }
 
+#about .btn:hover{
+  background-color: white;
+}
 
 /* Mediaquery */
 
