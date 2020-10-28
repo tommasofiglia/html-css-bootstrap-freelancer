@@ -61,7 +61,7 @@ nav{
 }
 
 /* Inizio Main */
-
+/* Cards */
 .col-lg-4{
   margin: 20px 0;
 }
@@ -69,6 +69,13 @@ nav{
 #cards img{
   width: 100%;
 }
+
+/* about */
+.container-sm{
+  max-width: 750px;
+  margin: auto;
+}
+
 
 /* Mediaquery */
 
