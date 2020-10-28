@@ -105,8 +105,8 @@ nav a{
 
 /* Inizio Main */
 /* Cards */
-.col-lg-4{
-  margin: 20px 0;
+#cards .col-lg-4{
+  padding: 15px 25px;
 }
 
 #cards img{
@@ -181,6 +181,12 @@ footer p a:hover{
 
 /* Mediaquery */
 
+@media  screen and (max-width: 767px) {
+  #cards .row{
+    max-width: 500px;
+    margin: auto;
+  }
+}
 @media  screen and (min-width: 769px) {
   #cards .col-md-6{
     margin: 10px 0;
