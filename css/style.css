@@ -42,6 +42,33 @@
   margin: auto;
 }
 
+
+/* Intermezzi con linee e stella */
+.line_star{
+  max-width: 350px;
+  margin: auto;
+}
+
+.star{
+  font-size: 35px;
+}
+
+.line_star .col-lg-2 , .line_star .col-md-2 , .line_star .col-sm-2 , .line_star .col-xs-2{
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+}
+
+.jumbotron .line_star hr , #about .line_star hr {
+  border-top: 4px solid white;
+  border-radius: 5px;
+}
+
+#cards .line_star hr , #contact .line_star hr {
+  border-top: 5px solid #2c3e50;;
+  border-radius: 5px;
+}
+
 /* Fine utility classes */
 
 /* Commons */
@@ -175,6 +202,10 @@ footer p a{
 
 footer p a:hover{
   color: #1abc9c;
+}
+
+#footer_superior{
+  padding: 50px 0;
 }
 
 
